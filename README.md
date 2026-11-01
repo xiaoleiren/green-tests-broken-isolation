@@ -4,8 +4,8 @@ A 66-line, dependency-free demo for the article
 "Who Checks the Tests When an Agent Rewrites the Code?"
 
 It shows one failure mode: a rewrite drops a tenant-isolation check and the
-existing tests stay green. No LLM is involved; the "rewrite" is deliberately flawed rewrite
-so the result is deterministic.
+existing tests stay green. No LLM is involved: the "rewrite" is a fixed,
+deliberately flawed function, so the result is deterministic.
 
 ## Run
 
